@@ -1,0 +1,16 @@
+# Next.js cPanel .htaccess
+# This helps route requests to Node.js app
+# Note: Adjust PORT number to match your Node.js app port from cPanel
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  
+  # Route to Node.js app (replace PORT with actual port number from cPanel)
+  # For example: RewriteRule ^(.*)$ http://localhost:3001/$1 [P,L]
+  RewriteCond %{REQUEST_URI} !^/api/
+  RewriteRule ^(.*)$ http://localhost:PORT/$1 [P,L]
+</IfModule>
+
+# If using subdirectory, uncomment and set:
+# RewriteBase /card-generator/
+
