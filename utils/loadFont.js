@@ -8,10 +8,7 @@ function loadFonts() {
   const fontsDir = path.join(process.cwd(), 'public', 'fonts');
 
   const fonts = [
-    { name: 'NotoSansTelugu', file: 'NotoSansTelugu-Regular.ttf' },
-    { name: 'NotoSerifTelugu', file: 'NotoSerifTelugu.ttf' },
-    { name: 'Panchganga', file: 'Panchganga.ttf' },
-    { name: 'Peddana', file: 'Peddana-Regular.ttf' },
+    { name: 'Poppins', file: 'Poppins-Regular.ttf' },
     { name: 'Sree Krushnadevaraya', file: 'Sree Krushnadevaraya Regular.otf' },
   ];
 

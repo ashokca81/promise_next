@@ -34,12 +34,8 @@ function loadFonts() {
 
   // Only include fonts that actually exist in the directory
   const fonts = [
+    { name: 'Poppins', file: 'Poppins-Regular.ttf' },
     { name: 'Sree Krushnadevaraya', file: 'Sree Krushnadevaraya Regular.otf' },
-    // Add other fonts here when you add the files:
-    // { name: 'NotoSansTelugu', file: 'NotoSansTelugu-Regular.ttf' },
-    // { name: 'NotoSerifTelugu', file: 'NotoSerifTelugu.ttf' },
-    // { name: 'Panchganga', file: 'Panchganga.ttf' },
-    // { name: 'Peddana', file: 'Peddana-Regular.ttf' },
   ];
 
   fonts.forEach((font) => {
